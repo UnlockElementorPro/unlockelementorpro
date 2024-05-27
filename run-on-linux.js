@@ -11,7 +11,7 @@ function isDockerExist() {
 
 async function run( tag ) {
 	const playwrightVersion = packageJson.devDependencies[ '@playwright/test' ];
-	const workingDir = process.cwd();
+	const workngDir = process.cwd();
 
 	const command = 'docker run';
 	const options = [
